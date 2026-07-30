@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/medioambiente/"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/medioambiente/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:gsp="http://www.opengis.net/ont/geosparql#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -25,18 +24,19 @@
         <owl:imports rdf:resource="http://qudt.org/2.1/schema/qudt"/>
         <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/sosa/"/>
-        <dct:creator xml:lang="es">Daniel Doña</dct:creator>
-        <dct:creator>Edna Ruckhaus</dct:creator>
-        <dct:creator>Lucía Sánchez</dct:creator>
-        <dct:creator>Maria del Socorro Bernardos</dct:creator>
-        <dct:creator>Oscar Corcho</dct:creator>
-        <dct:description xml:lang="en">A lightweight ontology extending SOSA to represent environmental measuring stations and sensors, restricting their observations to the EDINT SKOS controlled vocabulary.</dct:description>
-        <dct:description xml:lang="es">Una ontología ligera que extiende SOSA para representar estaciones de medición y sensores medioambientales, restringiendo sus mediciones al vocabulario controlado SKOS de EDINT.</dct:description>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-18</dct:issued>
-        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-27</dct:modified>
-        <dct:title xml:lang="en">EDINT Environmental Sensors Ontology</dct:title>
-        <dct:title xml:lang="es">Ontología EDINT de Sensores Medioambientales</dct:title>
+        <dcterms:creator xml:lang="es">Daniel Doña</dcterms:creator>
+        <dcterms:creator>Edna Ruckhaus</dcterms:creator>
+        <dcterms:creator>Lucía Sánchez</dcterms:creator>
+        <dcterms:creator>Maria del Socorro Bernardos</dcterms:creator>
+        <dcterms:creator>Oscar Corcho</dcterms:creator>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-18</dcterms:created>
+        <dcterms:description xml:lang="en">A lightweight ontology extending SOSA to represent environmental measuring stations and sensors, restricting their observations to the EDINT SKOS controlled vocabulary.</dcterms:description>
+        <dcterms:description xml:lang="es">Una ontología ligera que extiende SOSA para representar estaciones de medición y sensores medioambientales, restringiendo sus mediciones al vocabulario controlado SKOS de EDINT.</dcterms:description>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-18</dcterms:issued>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-27</dcterms:modified>
+        <dcterms:title xml:lang="en">EDINT Environmental Sensors Ontology</dcterms:title>
+        <dcterms:title xml:lang="es">Ontología EDINT de Sensores Medioambientales</dcterms:title>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
