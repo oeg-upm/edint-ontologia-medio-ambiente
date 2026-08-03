@@ -1,7 +1,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
 @prefix edintkos-sensortypes: <http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/> .
-@prefix edintkos-vars: <http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/> .
+@prefix edintkos-vars: <http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -28,7 +29,7 @@ edintkos:SensorTypes a skos:ConceptScheme ;
 # ---------------------------------------------------------------------------
 
 edintkos-sensortypes:ClimaticSensor a skos:Concept ;
-    skos:inScheme edintkos-sensortypes:SensorTypes ;
+    skos:inScheme edintkos:SensorTypes ;
     skos:prefLabel "Climatic sensor"@en ;
     skos:prefLabel "Sensor climático"@es ;
     skos:definition "A sensor designed to measure meteorological and atmospheric conditions such as temperature, humidity, pressure, wind, and precipitation."@en ;
@@ -40,7 +41,7 @@ edintkos-sensortypes:ClimaticSensor a skos:Concept ;
 # ---------------------------------------------------------------------------
 
 edintkos-sensortypes:AirQualitySensor a skos:Concept ;
-    skos:inScheme edintkos-sensortypes:SensorTypes ;
+    skos:inScheme edintkos:SensorTypes ;
     skos:prefLabel "Air quality sensor"@en ;
     skos:prefLabel "Sensor de calidad del aire"@es ;
     skos:definition "A sensor designed to measure air pollution levels and atmospheric composition, including gaseous pollutants, particulate matter, and volatile organic compounds."@en ;
@@ -52,7 +53,7 @@ edintkos-sensortypes:AirQualitySensor a skos:Concept ;
 # ---------------------------------------------------------------------------
 
 edintkos-sensortypes:NoiseSensor a skos:Concept ;
-    skos:inScheme edintkos-sensortypes:SensorTypes ;
+    skos:inScheme edintkos:SensorTypes ;
     skos:prefLabel "Noise sensor"@en ;
     skos:prefLabel "Sensor de ruido"@es ;
     skos:definition "A sensor designed to measure sound levels and acoustic conditions in the environment, including equivalent sound pressure levels and statistical noise levels."@en ;

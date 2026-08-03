@@ -1,8 +1,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix edintmed: <http://vocab.linkeddata.es/datosabiertos/def/medioambiente/> .
+@prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
 @prefix edintkos-foi: <http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/> .
-@prefix edintkos-vars: <http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/> .
+@prefix edintkos-vars: <http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -29,7 +30,7 @@ edintkos:FeaturesOfInterest a skos:ConceptScheme ;
 # ---------------------------------------------------------------------------
 
 edintkos-foi:Air a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Air"@en ;
     skos:prefLabel "Aire"@es ;
     skos:altLabel "Ambient air"@en ;
@@ -57,7 +58,7 @@ edintkos-foi:Air a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
 # ---------------------------------------------------------------------------
 
 edintkos-foi:ParticulateMatter a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Particulate matter"@en ;
     skos:prefLabel "Material particulado"@es ;
     skos:definition "Suspension of fine solid particles or liquid droplets in the atmosphere."@en ;
@@ -76,7 +77,7 @@ edintkos-foi:ParticulateMatter a skos:Concept, edintmed:EnvironmentalFeatureOfIn
 # ---------------------------------------------------------------------------
 
 edintkos-foi:Soil a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Soil"@en ;
     skos:prefLabel "Suelo"@es ;
     skos:definition "The upper layer of earth in which plants grow."@en ;
@@ -89,7 +90,7 @@ edintkos-foi:Soil a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
 # ---------------------------------------------------------------------------
 
 edintkos-foi:RoadSurface a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Road surface"@en ;
     skos:prefLabel "Calzada"@es ;
     skos:altLabel "Asphalt"@en ;
@@ -103,7 +104,7 @@ edintkos-foi:RoadSurface a skos:Concept, edintmed:EnvironmentalFeatureOfInterest
 # ---------------------------------------------------------------------------
 
 edintkos-foi:Wind a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Wind"@en ;
     skos:prefLabel "Viento"@es ;
     skos:definition "The movement of air in the atmosphere."@en ;
@@ -117,7 +118,7 @@ edintkos-foi:Wind a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
 # ---------------------------------------------------------------------------
 
 edintkos-foi:Precipitation a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Precipitation"@en ;
     skos:prefLabel "Precipitación"@es ;
     skos:definition "Any form of water falling from the atmosphere to the Earth's surface."@en ;
@@ -129,7 +130,7 @@ edintkos-foi:Precipitation a skos:Concept, edintmed:EnvironmentalFeatureOfIntere
 # ---------------------------------------------------------------------------
 
 edintkos-foi:SolarRadiation a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Solar radiation"@en ;
     skos:prefLabel "Radiación solar"@es ;
     skos:definition "Electromagnetic radiation emitted by the Sun reaching the Earth's surface."@en ;
@@ -143,7 +144,7 @@ edintkos-foi:SolarRadiation a skos:Concept, edintmed:EnvironmentalFeatureOfInter
 # ---------------------------------------------------------------------------
 
 edintkos-foi:AmbientLight a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Ambient light"@en ;
     skos:prefLabel "Luz ambiental"@es ;
     skos:definition "Natural or artificial illumination in an environment."@en ;
@@ -155,7 +156,7 @@ edintkos-foi:AmbientLight a skos:Concept, edintmed:EnvironmentalFeatureOfInteres
 # ---------------------------------------------------------------------------
 
 edintkos-foi:AirbornePollen a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Airborne pollen"@en ;
     skos:prefLabel "Polen atmosférico"@es ;
     skos:definition "Pollen grains suspended in the atmosphere."@en ;
@@ -167,7 +168,7 @@ edintkos-foi:AirbornePollen a skos:Concept, edintmed:EnvironmentalFeatureOfInter
 # ---------------------------------------------------------------------------
 
 edintkos-foi:AcousticEnvironment a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Acoustic environment"@en ;
     skos:prefLabel "Entorno acústico"@es ;
     skos:definition "The acoustic conditions of a given area."@en ;
@@ -182,7 +183,7 @@ edintkos-foi:AcousticEnvironment a skos:Concept, edintmed:EnvironmentalFeatureOf
 # ---------------------------------------------------------------------------
 
 edintkos-foi:DrinkingWater a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "Drinking water"@en ;
     skos:prefLabel "Agua potable"@es ;
     skos:definition "Water safe enough for human consumption."@en ;
@@ -199,7 +200,7 @@ edintkos-foi:DrinkingWater a skos:Concept, edintmed:EnvironmentalFeatureOfIntere
 # ---------------------------------------------------------------------------
 
 edintkos-foi:IoTSensor a skos:Concept, edintmed:EnvironmentalFeatureOfInterest ;
-    skos:inScheme edintkos-foi:FeaturesOfInterest ;
+    skos:inScheme edintkos:FeaturesOfInterest ;
     skos:prefLabel "IoT sensor"@en ;
     skos:prefLabel "Sensor IoT"@es ;
     skos:definition "A device that detects and responds to physical stimuli and monitors its own status."@en ;
