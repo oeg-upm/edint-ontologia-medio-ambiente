@@ -214,7 +214,7 @@
                 <owl:allValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/SensorVariables"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -289,7 +289,9 @@
     <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medioambiente/EnvironmentalFeatureOfInterest"/>
+    </owl:NamedIndividual>
     
 
 
@@ -300,10 +302,12 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/SensorVariables -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/SensorVariables"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medioambiente/EnvironmentalProperty"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
