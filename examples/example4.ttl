@@ -114,7 +114,7 @@ ex:Observation_WindSpeed_001_Morning a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "4.2"^^xsd:decimal ;
-        qudt:unit unit:M-PER-SEC
+        qudt:hasUnit unit:M-PER-SEC
     ] .
 
 # Medición velocidad viento tarde
@@ -142,7 +142,7 @@ ex:Observation_WindSpeed_001_Evening a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "6.8"^^xsd:decimal ;
-        qudt:unit unit:M-PER-SEC
+        qudt:hasUnit unit:M-PER-SEC
     ] .
 
 # Medición velocidad maxima viento
@@ -156,7 +156,7 @@ ex:Observation_MaxWind_001 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "12.5"^^xsd:decimal ;
-        qudt:unit unit:M-PER-SEC
+        qudt:hasUnit unit:M-PER-SEC
     ] .
 
 # Medición direccion viento mañana
@@ -170,7 +170,7 @@ ex:Observation_WindDirection_001_Morning a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "270"^^xsd:decimal ;
-        qudt:unit unit:DEG
+        qudt:hasUnit unit:DEG
     ] .
 
 # Medición direccion viento tarde
@@ -184,7 +184,7 @@ ex:Observation_WindDirection_001_Evening a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "290"^^xsd:decimal ;
-        qudt:unit unit:DEG
+        qudt:hasUnit unit:DEG
     ] .
 
 # Medición lluvia
@@ -212,7 +212,7 @@ ex:Observation_PrecipAmount_001 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "2.5"^^xsd:decimal ;
-        qudt:unit unit:MilliM
+        qudt:hasUnit unit:MilliM
     ] .
 
 # Medición intensidad lluvia
@@ -226,7 +226,7 @@ ex:Observation_PrecipIntensity_001 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "5.0"^^xsd:decimal ;
-        qudt:unit unit:MilliM-PER-HR
+        qudt:hasUnit unit:MilliM-PER-HR
     ] .
 
 # Medición irradiancia solar mañana
@@ -240,7 +240,7 @@ ex:Observation_SolarIrradiance_001_Morning a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "420.5"^^xsd:decimal ;
-        qudt:unit unit:W-PER-M2
+        qudt:hasUnit unit:W-PER-M2
     ] .
 
 # Medición irradiancia solar mediodia
@@ -254,7 +254,7 @@ ex:Observation_SolarIrradiance_001_Noon a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "850.2"^^xsd:decimal ;
-        qudt:unit unit:W-PER-M2
+        qudt:hasUnit unit:W-PER-M2
     ] .
 
 # Medición indice UV mañana
@@ -268,7 +268,7 @@ ex:Observation_UVIndex_001_Morning a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "2.5"^^xsd:decimal ;
-        qudt:unit unit:UNITLESS
+        qudt:hasUnit unit:UNITLESS
     ] .
 
 # Medición indice UV mediodia
@@ -282,7 +282,7 @@ ex:Observation_UVIndex_001_Noon a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "6.8"^^xsd:decimal ;
-        qudt:unit unit:UNITLESS
+        qudt:hasUnit unit:UNITLESS
     ] .
 
 # Medición humedad relativa mañana
@@ -296,7 +296,7 @@ ex:Observation_RelHumidity_001_Morning a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "72.5"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 # Medición humedad relativa tarde
@@ -310,7 +310,7 @@ ex:Observation_RelHumidity_001_Evening a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "48.3"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 # ---------------------------------------------------------------------------
@@ -342,7 +342,7 @@ ex:Observation_WindSpeed_002 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "3.8"^^xsd:decimal ;
-        qudt:unit unit:M-PER-SEC
+        qudt:hasUnit unit:M-PER-SEC
     ] .
 
 # Medición direccion viento dia2
@@ -356,7 +356,7 @@ ex:Observation_WindDirection_002 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "245"^^xsd:decimal ;
-        qudt:unit unit:DEG
+        qudt:hasUnit unit:DEG
     ] .
 
 # Medición irradiancia solar dia2
@@ -370,7 +370,7 @@ ex:Observation_SolarIrradiance_002 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "780.5"^^xsd:decimal ;
-        qudt:unit unit:W-PER-M2
+        qudt:hasUnit unit:W-PER-M2
     ] .
 
 # Medición indice UV dia2
@@ -384,7 +384,7 @@ ex:Observation_UVIndex_002 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "6.2"^^xsd:decimal ;
-        qudt:unit unit:UNITLESS
+        qudt:hasUnit unit:UNITLESS
     ] .
 
 # Medición humedad relativa dia2
@@ -398,7 +398,7 @@ ex:Observation_RelHumidity_002 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "65.8"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 # ---------------------------------------------------------------------------

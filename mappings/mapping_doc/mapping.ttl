@@ -449,7 +449,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant qudt:unit;
+			rr:constant qudt:hasUnit;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
