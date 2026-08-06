@@ -88,7 +88,7 @@ ex:Observation_PM25_001_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "8.7"^^xsd:decimal ;
-        qudt:unit unit:MicroGM-PER-M3
+        qudt:hasUnit unit:MicroGM-PER-M3
     ] .
 
 ex:Observation_AirTemp_001_20260318 a edintmed:EnvironmentalObservation ;
@@ -101,7 +101,7 @@ ex:Observation_AirTemp_001_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "12.3"^^xsd:decimal ;
-        qudt:unit unit:DEG_C
+        qudt:hasUnit unit:DEG_C
     ] .
 
 # ---------------------------------------------------------------------------
@@ -124,7 +124,7 @@ ex:Observation_BatteryLevel_PM25_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "92"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 ex:Observation_BatteryVoltage_PM25_20260318 a edintmed:EnvironmentalObservation ;
@@ -137,7 +137,7 @@ ex:Observation_BatteryVoltage_PM25_20260318 a edintmed:EnvironmentalObservation 
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "4.08"^^xsd:decimal ;
-        qudt:unit unit:V
+        qudt:hasUnit unit:V
     ] .
 
 ex:Observation_InternalTemp_PM25_20260318 a edintmed:EnvironmentalObservation ;
@@ -150,7 +150,7 @@ ex:Observation_InternalTemp_PM25_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "38.2"^^xsd:decimal ;
-        qudt:unit unit:DEG_C
+        qudt:hasUnit unit:DEG_C
     ] .
 
 ex:Observation_SignalStrength_PM25_20260318 a edintmed:EnvironmentalObservation ;
@@ -163,7 +163,7 @@ ex:Observation_SignalStrength_PM25_20260318 a edintmed:EnvironmentalObservation 
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "-87"^^xsd:decimal ;
-        qudt:unit unit:DeciB-M
+        qudt:hasUnit unit:DeciB-M
     ] .
 
 ex:Observation_Uptime_PM25_20260318 a edintmed:EnvironmentalObservation ;
@@ -176,7 +176,7 @@ ex:Observation_Uptime_PM25_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "2184"^^xsd:decimal ;
-        qudt:unit unit:HR
+        qudt:hasUnit unit:HR
     ] .
 
 # --- Sensor Temp_001 ---
@@ -191,7 +191,7 @@ ex:Observation_BatteryLevel_Temp_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "88"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 ex:Observation_InternalTemp_Temp_20260318 a edintmed:EnvironmentalObservation ;
@@ -204,7 +204,7 @@ ex:Observation_InternalTemp_Temp_20260318 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "35.6"^^xsd:decimal ;
-        qudt:unit unit:DEG_C
+        qudt:hasUnit unit:DEG_C
     ] .
 
 ex:Observation_SignalStrength_Temp_20260318 a edintmed:EnvironmentalObservation ;
@@ -217,7 +217,7 @@ ex:Observation_SignalStrength_Temp_20260318 a edintmed:EnvironmentalObservation 
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "-91"^^xsd:decimal ;
-        qudt:unit unit:DeciB-M
+        qudt:hasUnit unit:DeciB-M
     ] .
 
 # ---------------------------------------------------------------------------
@@ -234,7 +234,7 @@ ex:Observation_PM25_001_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "15.4"^^xsd:decimal ;
-        qudt:unit unit:MicroGM-PER-M3
+        qudt:hasUnit unit:MicroGM-PER-M3
     ] .
 
 ex:Observation_AirTemp_001_20260319 a edintmed:EnvironmentalObservation ;
@@ -247,7 +247,7 @@ ex:Observation_AirTemp_001_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "9.1"^^xsd:decimal ;
-        qudt:unit unit:DEG_C
+        qudt:hasUnit unit:DEG_C
     ] .
 
 # ---------------------------------------------------------------------------
@@ -270,7 +270,7 @@ ex:Observation_BatteryLevel_PM25_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "71"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 ex:Observation_BatteryVoltage_PM25_20260319 a edintmed:EnvironmentalObservation ;
@@ -283,7 +283,7 @@ ex:Observation_BatteryVoltage_PM25_20260319 a edintmed:EnvironmentalObservation 
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "3.72"^^xsd:decimal ;
-        qudt:unit unit:V
+        qudt:hasUnit unit:V
     ] .
 
 ex:Observation_InternalTemp_PM25_20260319 a edintmed:EnvironmentalObservation ;
@@ -296,7 +296,7 @@ ex:Observation_InternalTemp_PM25_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "28.7"^^xsd:decimal ;
-        qudt:unit unit:DEG_C
+        qudt:hasUnit unit:DEG_C
     ] .
 
 ex:Observation_SignalStrength_PM25_20260319 a edintmed:EnvironmentalObservation ;
@@ -309,7 +309,7 @@ ex:Observation_SignalStrength_PM25_20260319 a edintmed:EnvironmentalObservation 
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "-102"^^xsd:decimal ;
-        qudt:unit unit:DeciB-M
+        qudt:hasUnit unit:DeciB-M
     ] .
 
 ex:Observation_Uptime_PM25_20260319 a edintmed:EnvironmentalObservation ;
@@ -322,7 +322,7 @@ ex:Observation_Uptime_PM25_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "2208"^^xsd:decimal ;
-        qudt:unit unit:HR
+        qudt:hasUnit unit:HR
     ] .
 
 # --- Sensor Temp_001 ---
@@ -337,7 +337,7 @@ ex:Observation_BatteryLevel_Temp_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "64"^^xsd:decimal ;
-        qudt:unit unit:PERCENT
+        qudt:hasUnit unit:PERCENT
     ] .
 
 ex:Observation_InternalTemp_Temp_20260319 a edintmed:EnvironmentalObservation ;
@@ -350,7 +350,7 @@ ex:Observation_InternalTemp_Temp_20260319 a edintmed:EnvironmentalObservation ;
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "26.1"^^xsd:decimal ;
-        qudt:unit unit:DEG_C
+        qudt:hasUnit unit:DEG_C
     ] .
 
 ex:Observation_SignalStrength_Temp_20260319 a edintmed:EnvironmentalObservation ;
@@ -363,7 +363,7 @@ ex:Observation_SignalStrength_Temp_20260319 a edintmed:EnvironmentalObservation 
     sosa:hasResult [
         a qudt:QuantityValue ;
         qudt:numericValue "-105"^^xsd:decimal ;
-        qudt:unit unit:DeciB-M
+        qudt:hasUnit unit:DeciB-M
     ] .
 
 # ---------------------------------------------------------------------------

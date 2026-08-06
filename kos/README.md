@@ -266,7 +266,7 @@ Los dos vocabularios trabajan juntos para permitir el modelado completo de obser
     sosa:observes edintkos-vars:AirTemperature ;
     sosa:featureOfInterest edintkos-foi:Air ;
     sosa:hasSimpleResult "22.5"^^xsd:decimal ;
-    qudt:unit unit:DEG_C .
+    qudt:hasUnit unit:DEG_C .
 ```
 
 En este patrón:
