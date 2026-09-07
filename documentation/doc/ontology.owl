@@ -153,7 +153,7 @@
                 <owl:allValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -203,7 +203,7 @@
                 <owl:allValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -286,17 +286,17 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest"/>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes"/>
     
 
 

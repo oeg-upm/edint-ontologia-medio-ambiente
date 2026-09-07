@@ -88,7 +88,7 @@
                                             owl:onProperty <http://www.w3.org/ns/sosa/hasFeatureOfInterest> ;
                                             owl:allValuesFrom [ rdf:type owl:Restriction ;
                                                                 owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest>
+                                                                owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest>
                                                               ]
                                           ] ;
                           rdfs:comment "An observation of an environmental property made by an environmental sensor."@en ,
@@ -122,7 +122,7 @@
                                        owl:onProperty :hasSensorType ;
                                        owl:allValuesFrom [ rdf:type owl:Restriction ;
                                                            owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                           owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes>
+                                                           owl:hasValue <http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes>
                                                          ]
                                      ] ,
                                      [ rdf:type owl:Restriction ;
@@ -172,12 +172,12 @@
 #    Individuals
 #################################################################
 
-###  http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest> rdf:type owl:NamedIndividual .
+###  http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest
+<http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest> rdf:type owl:NamedIndividual .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes> rdf:type owl:NamedIndividual .
+###  http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes
+<http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes> rdf:type owl:NamedIndividual .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty
