@@ -162,7 +162,7 @@
                 <owl:allValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -210,7 +210,7 @@
                 <owl:allValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -221,7 +221,7 @@
                 <owl:allValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/EnvironmentalProperties"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -312,9 +312,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/foi/FeaturesOfInterest"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/FeaturesOfInterest">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Concept scheme grouping features of interest observable by sensors according to SOSA ontology.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de conceptos agrupando características de interés observables por sensores según la ontología SOSA</rdfs:comment>
@@ -323,9 +323,9 @@
     </owl:NamedIndividual>
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/sensortypes/SensorTypes"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/SensorTypes">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Concept scheme grouping sensor types according to their measurement domain.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de conceptos agrupando tipos de sensores según su dominio de medición</rdfs:comment>
@@ -334,9 +334,9 @@
     </owl:NamedIndividual>
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/EnvironmentalProperty -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/variables/EnvironmentalProperty"/>
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/EnvironmentalProperty">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Concept scheme grouping environmental properties according to their measurement domain.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de conceptos agrupando propiedades ambientales según su dominio de medición</rdfs:comment>
